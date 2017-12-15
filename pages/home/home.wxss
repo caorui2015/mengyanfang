@@ -1,0 +1,118 @@
+/* pages/home/home.wxss */
+.dmPage {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topView {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+}
+
+
+.textContent {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.logoView {
+  padding: 0px;
+}
+
+.h1 {
+  font-size: 28px;
+	font-weight: 400;
+}
+
+.h2 {
+  font: 13px;
+  font-weight: 300;
+  color: #8a8a8a;
+}
+
+
+.bottomView {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.listView {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dmCell {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageShowView {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.leftContent {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.leftContent text {
+  margin-left: 20px;
+}
+
+.dmIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.images {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.showImage {
+  width: 30%;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.imageContent {
+  width: 100%;
+}
+

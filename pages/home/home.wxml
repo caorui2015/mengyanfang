@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+
+<view class='page dmPage'>
+  <view class='topView'>
+    <view class='textContent'>
+      <text class='h1'>大喵是傻瓜</text>
+      <text class='h2'>啥？你说的对</text>
+    </view>
+
+    <view class='logoView'>
+      <image src='../../images/logo.jpeg' style='width:50px; height:50px;border-radius: 50%;' class='logo'></image>
+    </view>
+  </view>
+
+  <view class='bottomView'>
+    <view class='listView'>
+      <view wx:for="{{list}}" class='dmCell'>
+        <view class='leftContent'>
+         <image src='{{item.image}}' class='dmIcon'></image>
+          <text>{{item.title}}</text>
+        </view>
+        <image class='dmIcon' src='../../images/next.png'></image>
+      </view>
+    </view>
+
+
+    <view class='dmCell imageShowView'>
+      <view class='leftContent'>
+         <image src='../../images/images.png' class='dmIcon'></image>
+         <text class=''>照片</text>
+       </view>
+      
+    <view class='images'>
+      <view class='showImage' wx:for="{{imageList}}">
+        <image src='{{item}}' class="imageContent" mode='aspectFit'></image>
+      </view>
+    </view>
+
+    </view>
+  </view>
+
+</view>
