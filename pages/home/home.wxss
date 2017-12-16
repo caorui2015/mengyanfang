@@ -106,10 +106,11 @@
 }
 
 .showImage {
-  width: 30%;
+  /* width: 30%; */
   padding: 0px;
   margin: 0px;
-  
+  margin-bottom: 2px;
+  /*background-color: palegreen;*/
 }
 
 .imageContent {

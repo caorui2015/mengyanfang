@@ -14,7 +14,7 @@
 
   <view class='bottomView'>
     <view class='listView'>
-      <view wx:for="{{list}}" class='dmCell'>
+      <view wx:for="{{list}}" class='dmCell' id="{{item.id}}" catchtap='touchCell'>
         <view class='leftContent'>
          <image src='{{item.image}}' class='dmIcon'></image>
           <text>{{item.title}}</text>
@@ -25,14 +25,14 @@
 
 
     <view class='dmCell imageShowView'>
-      <view class='leftContent'>
+      <view class='leftContent' style='margin-bottom:8px'>
          <image src='../../images/images.png' class='dmIcon'></image>
          <text class=''>照片</text>
        </view>
       
     <view class='images'>
-      <view class='showImage' wx:for="{{imageList}}">
-        <image src='{{item}}' class="imageContent" mode='aspectFit'></image>
+      <view class='showImage' wx:for="{{imageList}}" style="width:{{imageWidth}}; height:{{imageWidth}}">
+        <image src='{{item}}' class="imageContent" mode='aspectFill' style="width:{{imageWidth}}; height:{{imageWidth}}" catchtap='' data-src="{{item}}"></image>
       </view>
     </view>
 
